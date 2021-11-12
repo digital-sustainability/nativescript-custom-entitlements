@@ -1,6 +1,6 @@
 {
   "name": "nativescript-custom-entitlements",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Nativescript hook for supporting custom Xcode 8 entitlements",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -43,7 +43,7 @@
     ]
   },
   "dependencies": {
-    "fs-promise": "^2.0.0",
-    "nativescript-hook": "^0.2.1"
+    "fs-extra": "^10.0.0",
+    "@nativescript/hook": "^2.0.0"
   }
 }
